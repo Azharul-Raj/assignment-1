@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.first-section{
+    background-image:  url(images/Rectangle\ 237.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 250px 50px 250px;
+    
+}
+
+.white-heading{
+    font-size: 62px;
+    color: white;
+    text-align: center;
+}
+.white-parageraph{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px 10px;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    background-color: orangered;
+    padding: 15px 30px;
+    width: 80%;
+}
+.button{
+    text-align: center;
+    padding: 60px 0px;
+}
+
+.second-section{
+    width: 50%;
+}
+
+h2{
+    font-size: 38px;
+    padding: 50px 0px 30px 0px;
+    text-align: center;
+}
+.center-para{
+    text-align: center;
+    padding: 0% 30%;
+}
+.donate-amount{
+    display: flex;
+    text-align: center;
+}
+.amount{
+    width: 15%;
+
+    display: inline-block;
+    margin: 2%;
+    padding: 30px 15px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.1);
+    color:
+}
+.custom-amount{
+    text-align: center;
+   
+}
+input[type=text] {
+    width: 50%;
+    padding-top: 50px;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+input[type=text]::placeholder{
+    text-align: center;
+    font-size: 20px;
+    background-color: #fff;
+}
+.box-1, box-2, box-3 , img {
+    width: 20%;
+}
+.active{
+    border: 2px solid orangered;
+    border-radius: 5px;
+    color: orangered;
+    background-color: rgba(255, 68, 0, 0.111);
+}
+
+
+
+.icon-box{
+    display: flex;
+    margin: 2%;
+    justify-content: space-around;
+}
+.box-1{
+    width: 25%;
+    background-color: rgba(255, 68, 0, 0.129);
+    padding: 50px 20px;
+    border-radius: 15px;
+}
+.box-2{
+    width: 25%;
+    background-color: rgba(102, 255, 0, 0.129);
+    padding: 50px 20px;
+    border-radius: 15px;
+}
+.box-3{
+    width: 25%;
+    background-color: rgba(221, 0, 255, 0.129);
+    padding: 50px 20px;
+    border-radius: 15px;
+}
+.box-heading{
+    text-align: left;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.box-para{
+    text-align: left;
+}
+.flood-image{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    
+}
+.flood-1 img{
+    height: 300px;
+    width: 480px;
+    border-radius: 50px;
+}
+.m1{
+    margin: 0px 10px;
+    
+}
+.fourth-section{
+    display: ;
+    padding: 20px 0px 100px 0px;
+}
+.mail-fild{
+    text-align: center;
+    
+}
+input[type=email] {
+    border: none;
+    width: 40% ;
+    padding: 40px 0px;
+    text-align: left;
+}
+
+input[type=email]::placeholder{
+    background-color: rgba(128, 128, 128, 0.11);
+    padding: 18px;
+    
+}
+.btn{
+    color: white;
+    margin-left: -5px;
+    padding: 60px opx;
+}
+.footer{
+    background-color: black;
+    padding: 50px;
+    text-align: center;
+}
+.quad{
+    color: orangered;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.copyright{
+    color: white;
+}
